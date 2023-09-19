@@ -1,0 +1,111 @@
+.text {
+  font-weight: 800;
+  font-size: 22px;
+  margin-bottom: 62px;
+  text-align:center;
+}
+
+.messageContainer {
+  display: flex;
+  padding: 16px;
+  height: 168px;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 22px;
+
+}
+.message {
+  border: none;
+  width: 100%;
+  height: 100%;
+  resize: none;
+  font-weight: 800;
+  font-size: 22px;
+  outline: none;
+}
+
+.messageTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttonHelp {
+  fill: gray;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 5px gray);
+  transition: fill 0.3s ease;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.buttonHelp:hover {
+  fill: #05ac6a;
+  filter: drop-shadow(0 0 5px #05ac6a);
+  cursor: pointer;
+}
+
+.endFormContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.confirmCointainer {
+  display: flex;
+  width: 100%;
+  gap:26px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonConfirm {
+  width: 35px;
+  height: 30px;
+  padding: 2px;
+  border: 1px solid #05ac6a;
+  border-radius: 45%;
+  background-color: white;
+}
+
+.textConfirm {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.textConfirmSpan {
+  color: #05ac6a;
+}
+
+.submitButton {
+  padding: 18px 79px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  background-color: #6f6f6f;
+  transition: 0.3s ease;
+  font-size:22px;
+}
+
+.submitButton:hover {
+  background-color: #05ac6a;
+  cursor: pointer;
+}
+
+.focused {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 50%;
+  background-color: #05ac6a;
+}
+
+.confirm {
+  display: hidden;
+}
+
+.messageAndFileContainer {
+  margin-bottom:69px;
+}

@@ -1,0 +1,33 @@
+.backSideContainer {
+    display:flex;
+    flex-direction:column;
+    gap: 57px;
+}
+
+.title {
+ text-align:center;
+ font-size:24px;
+}
+
+.buttonBack {
+    display: flex;
+    gap: 10px;
+    align-items:center;
+    color:white;
+    font-size:22px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color:#05AC6A;
+    transition: 0.3s ease;
+}
+
+.buttonBack:hover {
+    background-color:#6F6F6F;
+}
+
+.questionsContainer {
+    display:flex;
+    flex-direction:column;
+    gap:24px;
+}

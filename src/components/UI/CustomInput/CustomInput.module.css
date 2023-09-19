@@ -1,0 +1,44 @@
+/* CustomInput.css */
+
+/* Стили для контейнера */
+.container {
+  position: relative;
+  margin: 32px 0;
+  width: 100%;
+  padding: 14px 0;
+  border-bottom: 1px solid black;
+}
+
+/* Стили для заголовка (по умолчанию) */
+.label {
+  position: absolute;
+  pointer-events: none;
+  transition: 0.2s ease all;
+  top: 14px;
+  left: 16px;
+  font-size: 22px;
+  color: black;
+}
+
+/* Стили для заголовка при фокусе или если поле не пустое */
+.label.up,
+.container.focused .label {
+  top: -15px;
+  font-size: 22px;
+  color: #05ac6a;
+}
+
+/* Стили для поля ввода */
+input[type="text"] {
+  width: 100%;
+  /* padding: 20px 0; */
+  font-size: 22px;
+  border: none;
+  /* border-bottom: 1px solid black;  */
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.container.focused input[type="text"] {
+  border-color: #007bff;
+}

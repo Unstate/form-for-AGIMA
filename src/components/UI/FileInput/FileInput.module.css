@@ -1,0 +1,33 @@
+.label {
+  font-size: 22px;
+  font-weight: semibold;
+  transition: 0.3s ease;
+  padding: 0 0 0 20px;
+}
+
+.label:hover {
+  cursor: pointer;
+  color: #05ac6a;
+}
+
+.fileInputContainer {
+  margin-top: 10px;
+}
+
+.selectedFile {
+  display: flex;
+  gap: 10px;
+}
+
+.closeButton {
+  fill: red;
+}
+
+.closeButton:hover {
+  cursor: pointer;
+  fill: black;
+}
+
+.disabled {
+  display: hidden;
+}
